@@ -9,7 +9,7 @@ related_targets: ["src/components"]
 
 Scope: the whole SPA (shell, Browse, Flashcards, Quiz, WordModal, HanziTooltip). Mode: Operate. Build path: code-led.
 
-Audience and job: Hebrew speakers learning Chinese, on phone and desktop; find a word, review it, test recall. Constraints: RTL Hebrew UI, LTR-isolated Hanzi/Pinyin, AA contrast, 44px touch targets, reduced-motion respected. Nothing from the old look is kept except the name and the 汉 mark.
+Audience and job: Hebrew speakers learning Chinese, on phone and desktop; find a word, review it, test recall. Constraints: RTL Hebrew UI, LTR-isolated Hanzi/Pinyin, AA contrast, 44px touch targets, reduced-motion respected. Nothing from the old look is kept. The name is "Hanzi" with "לימוד סינית" as its subtitle, and the mark is a tile carving 汉字.
 
 Chosen direction: Mahjong tiles, fused with the tone-lines direction at the user's request. Memorable moment: hovering (or flipping) a tile writes its tone contours one syllable after another, in reading order.
 

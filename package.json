@@ -1,5 +1,5 @@
 {
-  "name": "chinese-vocabulary",
+  "name": "hanzi",
   "version": "1.0.0",
   "description": "A Chinese vocabulary learning app (Hanzi / Pinyin / Hebrew)",
   "type": "module",
@@ -21,3 +21,4 @@
   },
   "private": true
 }
+

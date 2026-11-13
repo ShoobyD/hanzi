@@ -35,8 +35,11 @@ const { tags, selectedTags, scopedWords, toggleTag, clearTags } = useScope()
     <header class="topbar">
       <div class="bar">
         <h1 class="brand">
-          <span class="brand-tile hanzi" lang="zh-Hans" aria-hidden="true"><span>汉</span><span>语</span></span>
-          <span class="brand-name">לימוד סינית</span>
+          <span class="brand-tile hanzi" lang="zh-Hans" aria-hidden="true"><span>汉</span><span>字</span></span>
+          <span class="brand-name">
+            <span class="brand-latin" lang="en" dir="ltr">Hanzi</span>
+            <span class="brand-sub">לימוד סינית</span>
+          </span>
         </h1>
 
         <nav class="modes" aria-label="מצב לימוד">
@@ -154,7 +157,30 @@ const { tags, selectedTags, scopedWords, toggleTag, clearTags } = useScope()
   color: var(--on-jade);
 }
 
-/* The mark: a small upright tile carving 汉 over 语. */
+/* The name: "Hanzi" leads, "לימוד סינית" sits beneath as its subtitle. Both
+   live in the h1, so the full name is what assistive tech announces. */
+.brand-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-1);
+}
+
+.brand-latin {
+  font-size: 1.75rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.01em;
+}
+
+.brand-sub {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  line-height: 1;
+  color: var(--on-jade-muted);
+}
+
+/* The mark: a small upright tile carving 汉字, the brand name in Hanzi. */
 .brand-tile {
   display: inline-flex;
   flex-direction: column;
@@ -404,6 +430,14 @@ const { tags, selectedTags, scopedWords, toggleTag, clearTags } = useScope()
 
   .brand {
     font-size: var(--text-lg);
+  }
+
+  .brand-latin {
+    font-size: 1.45rem;
+  }
+
+  .brand-sub {
+    font-size: var(--text-xs);
   }
 
   .brand-tile {

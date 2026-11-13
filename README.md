@@ -1,4 +1,4 @@
-# Chinese Vocabulary (לימוד סינית)
+# Hanzi · לימוד סינית
 
 A small web app for learning Chinese vocabulary, aimed at Hebrew speakers. Each
 word pairs **Hanzi** (汉字), **Pinyin**, and a **Hebrew** translation. The UI is
@@ -84,3 +84,4 @@ migration to this tag-based JSON.
 
 Line endings are **CRLF** and indentation uses **tabs**, enforced via
 [`.editorconfig`](.editorconfig) and [`.gitattributes`](.gitattributes).
+

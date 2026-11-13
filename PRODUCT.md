@@ -39,7 +39,7 @@ Tag filter: choosing one or more tags narrows every mode to words matching any o
 
 ## Brand Commitments
 
-- Name: "לימוד סינית", with 汉语 as the Chinese mark.
+- Name: "Hanzi", with "לימוד סינית" as its subtitle (full name "Hanzi · לימוד סינית"), and 汉字 as the Chinese mark.
 - Footer credit to ShoobyD (personal site and GitHub).
 - An Open Graph image exists at `public/og-image.png`, rendered from `scripts/og-image.html`.
 

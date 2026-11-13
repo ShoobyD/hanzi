@@ -1,5 +1,5 @@
 ---
-name: לימוד סינית
+name: Hanzi · לימוד סינית
 description: Chinese vocabulary for Hebrew speakers, laid out as mahjong tiles on a felt table.
 colors:
   jade-950: "#072a22"
@@ -166,7 +166,7 @@ components:
     padding: "48px 16px"
 ---
 
-# Design System: לימוד סינית
+# Design System: Hanzi · לימוד סינית
 
 ## Overview
 
@@ -228,7 +228,8 @@ A jade, bone and felt material palette, with four small carving inks that mean t
 ### Hierarchy
 - **Hanzi display** (700, 4.5rem, 1.15): the dialog headline and quiz prompt tile; flashcards reach 7rem on the jade back. Steps down by character count (1, 2, 3, 4+) so a tile never wraps.
 - **Hanzi tile** (700, 3.25rem single character down to 1.6rem for four, line-height 1): the browse grid, inside a fixed 4.25rem band so contours align across tiles.
-- **Title** (700, 1.625rem, 1.1): brand name, quiz completion line, large Pinyin on the dialog.
+- **Brand** (Assistant 800, 1.75rem, 1; 1.45rem on phones): "Hanzi", set LTR, with "לימוד סינית" beneath it at 600 / 0.9375rem in Pale Jade. Both sit in the one h1 beside the 汉字 mark tile.
+- **Title** (700, 1.625rem, 1.1): quiz completion line, large Pinyin on the dialog.
 - **Pinyin** (600, 1.0625rem, 1.3): under every tile's contours; 2rem on the flashcard face.
 - **Body** (400, 1.0625rem, 1.5): inputs, empty-state text, verdicts (600).
 - **Body small** (400, 0.9375rem, 1.35): Hebrew gloss on tiles, chips, counts, footer.
