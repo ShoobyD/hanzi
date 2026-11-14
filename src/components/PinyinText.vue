@@ -4,7 +4,7 @@ import { pinyinSyllables } from '@/utils'
 
 /**
  * Pinyin with each syllable inked in its tone's carving colour, matching the
- * tone contours (1 red, 2 green, 3 blue, 4 black, neutral muted). Separators
+ * tone contours (1 red, 2 green, 3 blue, 4 plum, neutral muted). Separators
  * keep the surrounding ink. Falls back to plain text when the syllables don't
  * line up with the Hanzi.
  */

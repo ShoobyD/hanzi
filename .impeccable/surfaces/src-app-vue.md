@@ -19,7 +19,7 @@ Unresolved: whether tag colour still appears on tiles (the sketch moved it to ch
 
 THESIS: Every word is a mahjong tile with real thickness: a carved bone face on a jade back, and under the Hanzi its tones are drawn as contour lines in the tile's own carving inks. It refuses the category default of flat white rounded cards on a grey ground with one blue accent.
 
-OWN-WORLD: Jade-green shell (#0f4f40 family, darker well and lighter rim), a warm felt-table work area, bone tile faces with a visible jade underside that grows on lift and shrinks on press. Carving inks only: red, green, blue and black. They double as tone colours (1 red flat, 2 green rising, 3 blue dipping, 4 black falling). Serif Hanzi, humanist sans Hebrew. Tag chips are small bone tiles when selected.
+OWN-WORLD: Jade-green shell (#0f4f40 family, darker well and lighter rim), a warm felt-table work area, bone tile faces with a visible jade underside that grows on lift and shrinks on press. Carving inks only: red, green, blue and plum. They double as tone colours (1 red flat, 2 green rising, 3 blue dipping, 4 plum falling), matching Pleco's default scheme. Serif Hanzi, humanist sans Hebrew. Tag chips are small bone tiles when selected.
 
 STORY: The learner sees words as a table of tiles, scopes by tag, hovers to hear-by-eye the tones, flips a tile to recall, then quizzes. They believe the three scripts belong together and act by studying.
 

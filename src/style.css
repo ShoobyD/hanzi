@@ -1,7 +1,7 @@
 /*
  * Visual world: mahjong tiles on a felt table.
  * Jade shell, bone tile faces with a jade underside, carving inks
- * (red / green / blue / black) that double as Mandarin tone colours.
+ * (red / green / blue / plum, after Pleco's scheme) that double as Mandarin tone colours.
  */
 :root {
   /* Jade: the shell and the tile backs. */
@@ -45,7 +45,7 @@
   --carve-red: #b8232b;
   --carve-green: #17683b;
   --carve-blue: #1d4f9a;
-  --carve-black: #1a1a1a;
+  --carve-plum: #7a2d8c;
 
   /* Quiz verdicts: carving green/red borrowed for fill and underside only. */
   --verdict-good-fill: #e2efe6;
@@ -57,7 +57,7 @@
   --tone-1: var(--carve-red);
   --tone-2: var(--carve-green);
   --tone-3: var(--carve-blue);
-  --tone-4: var(--carve-black);
+  --tone-4: var(--carve-plum);
   --tone-0: var(--ink-muted);
   /* Each contour draws for --tone-draw; the next starts --tone-stagger after
      it, a little later than the draw ends, so strokes never overlap. */

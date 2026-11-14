@@ -20,7 +20,7 @@ colors:
   carve-red: "#b8232b"
   carve-green: "#17683b"
   carve-blue: "#1d4f9a"
-  carve-black: "#1a1a1a"
+  carve-plum: "#7a2d8c"
   verdict-good-fill: "#e2efe6"
   verdict-good-deep: "#0f4a29"
   verdict-bad-fill: "#f6e1e1"
@@ -181,7 +181,7 @@ The memorable moment is the tone write: hovering, focusing, flipping or opening 
 **Key Characteristics:**
 - Bone tile faces on visible jade undersides; every interactive surface is a tile, a well, or the felt.
 - Jade shell (header) over a felt table (content) with a soft inset at their seam.
-- Four carving inks, reserved for tones (contours and Pinyin syllables): 1 red flat, 2 green rising, 3 blue dipping, 4 black falling.
+- Four carving inks, reserved for tones (contours and Pinyin syllables): 1 red flat, 2 green rising, 3 blue dipping, 4 plum falling (Pleco's default tone colours).
 - Serif Hanzi (Noto Serif SC 700) beside humanist sans Hebrew and Pinyin (Assistant).
 - Spring motion for tile physics only; everything else eases out.
 
@@ -199,7 +199,7 @@ A jade, bone and felt material palette, with four small carving inks that mean t
 - **Carving Red** (carve-red): tone 1, high flat.
 - **Carving Green** (carve-green): tone 2, rising.
 - **Carving Blue** (carve-blue): tone 3, dipping.
-- **Carving Black** (carve-black): tone 4, falling. Same value as ink, but a distinct role.
+- **Carving Plum** (carve-plum): tone 4, falling. The four tone colours follow Pleco's default scheme (1 red, 2 green, 3 blue, 4 purple, neutral grey), the most widely used dictionary app, so learners meet the same mapping there.
 
 ### Neutral
 - **Felt** (felt): the table under the content area and the page background. The table carries a nap (`--felt-nap`): a fine warm-umber fractal noise plus a faint falloff toward its lower edge, so it reads as cloth rather than paper. Wells and tiles stay untextured.
@@ -210,7 +210,7 @@ A jade, bone and felt material palette, with four small carving inks that mean t
 - **Muted Ink** (ink-muted): counts, field labels, progress, placeholders, footer, and the neutral-tone dot (tone 0).
 
 ### Named Rules
-**The Carving Ink Rule.** The four carving inks are reserved for tones (1 red, 2 green, 3 blue, 4 black; the neutral tone is a short ink-muted dot): the contours, and the Pinyin syllables that spell the same tones. They never decorate, never mark a brand, never colour a heading.
+**The Carving Ink Rule.** The four carving inks are reserved for tones (1 red, 2 green, 3 blue, 4 plum; the neutral tone is a short ink-muted dot): the contours, and the Pinyin syllables that spell the same tones. They never decorate, never mark a brand, never colour a heading.
 
 **The Verdict Exception.** Quiz verdicts may borrow carving green (correct) and carving red (wrong), but only through a tile's fill, edge, underside and check/cross icon, and the verdict line. Never on a Hanzi glyph.
 
@@ -314,7 +314,7 @@ A Well Felt well pressed into the table (16px radius, inset shadow, white lower 
 
 ### Do:
 - **Do** build every new interactive surface as a tile (bone face, jade underside, `--lift`), a well, or plain felt.
-- **Do** draw tones only with the Tone Contour, in tone order 1 red, 2 green, 3 blue, 4 black, neutral as an ink-muted dot, replayed in reading order.
+- **Do** draw tones only with the Tone Contour, in tone order 1 red, 2 green, 3 blue, 4 plum, neutral as an ink-muted dot, replayed in reading order.
 - **Do** keep Hanzi in ink on bone (bone on the jade back), and ink each Pinyin syllable in its tone colour at 600.
 - **Do** carry quiz verdicts in fill, edge, underside, icon and the verdict line.
 - **Do** step Hanzi size by character count so a word never wraps inside a tile.

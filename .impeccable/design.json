@@ -274,19 +274,19 @@
           "oklch(95% 0.134 258.8)"
         ]
       },
-      "carve-black": {
+      "carve-plum": {
         "role": "tertiary",
-        "displayName": "Carving Black (tone 4)",
-        "canonical": "oklch(21.8% 0 89.9)",
+        "displayName": "Carving Plum (tone 4)",
+        "canonical": "oklch(45% 0.162 319.5)",
         "tonalRamp": [
-          "oklch(15% 0 89.9)",
-          "oklch(26.4% 0 89.9)",
-          "oklch(37.9% 0 89.9)",
-          "oklch(49.3% 0 89.9)",
-          "oklch(60.7% 0 89.9)",
-          "oklch(72.1% 0 89.9)",
-          "oklch(83.6% 0 89.9)",
-          "oklch(95% 0 89.9)"
+          "oklch(15% 0.162 319.5)",
+          "oklch(26.4% 0.162 319.5)",
+          "oklch(37.9% 0.162 319.5)",
+          "oklch(49.3% 0.162 319.5)",
+          "oklch(60.7% 0.162 319.5)",
+          "oklch(72.1% 0.162 319.5)",
+          "oklch(83.6% 0.162 319.5)",
+          "oklch(95% 0.162 319.5)"
         ]
       },
       "verdict-good-fill": {
@@ -513,7 +513,7 @@
       "name": "Tone Contour",
       "kind": "custom",
       "refersTo": "tone-contour",
-      "description": "Signature: one pitch line per syllable in its carving ink (1 red flat, 2 green rising, 3 blue dipping, 4 black falling, neutral dot), redrawn in reading order on hover.",
+      "description": "Signature: one pitch line per syllable in its carving ink (1 red flat, 2 green rising, 3 blue dipping, 4 plum falling, neutral dot), redrawn in reading order on hover.",
       "html": "<span class=\"ds-tones-demo\" dir=\"ltr\" tabindex=\"0\"><svg class=\"ds-contour\" viewBox=\"0 0 32 20\" style=\"--tone-color: var(--tone-1)\"><path pathLength=\"1\" d=\"M3 4 L29 4\"/></svg><svg class=\"ds-contour\" viewBox=\"0 0 32 20\" style=\"--tone-color: var(--tone-2)\"><path pathLength=\"1\" d=\"M3 12 L29 4\"/></svg><svg class=\"ds-contour\" viewBox=\"0 0 32 20\" style=\"--tone-color: var(--tone-3)\"><path pathLength=\"1\" d=\"M3 9 Q13 21 29 5\"/></svg><svg class=\"ds-contour\" viewBox=\"0 0 32 20\" style=\"--tone-color: var(--tone-4)\"><path pathLength=\"1\" d=\"M3 4 L29 15\"/></svg><svg class=\"ds-contour\" viewBox=\"0 0 32 20\" style=\"--tone-color: var(--tone-0)\"><path class=\"ds-neutral\" d=\"M15 10 L17 10\"/></svg></span>",
       "css": ".ds-tones-demo { display: inline-flex; gap: 0.75rem; padding: var(--space-4); border-radius: var(--radius-md); background: var(--bone); } .ds-tones-demo .ds-contour { width: 3.5rem; height: 2.2rem; overflow: visible; } .ds-tones-demo path { fill: none; stroke: var(--tone-color); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 1; stroke-dashoffset: 0; } .ds-tones-demo path.ds-neutral { stroke-width: 5; } .ds-tones-demo:hover path, .ds-tones-demo:focus-visible path { animation: ds-draw var(--tone-draw) var(--ease-draw) both; } .ds-tones-demo .ds-contour:nth-child(2) path { animation-delay: calc(1 * var(--tone-stagger)); } .ds-tones-demo .ds-contour:nth-child(3) path { animation-delay: calc(2 * var(--tone-stagger)); } .ds-tones-demo .ds-contour:nth-child(4) path { animation-delay: calc(3 * var(--tone-stagger)); } .ds-tones-demo .ds-contour:nth-child(5) path { animation-delay: calc(4 * var(--tone-stagger)); } @keyframes ds-draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } } @media (prefers-reduced-motion: reduce) { .ds-tones-demo path { animation: none !important; } }"
     },
@@ -596,14 +596,14 @@
     "keyCharacteristics": [
       "Bone tile faces on visible jade undersides; every interactive surface is a tile, a well, or the felt.",
       "Jade shell (header) over a felt table (content) with a soft inset at their seam.",
-      "Four carving inks, reserved for tones (contours and Pinyin syllables): 1 red flat, 2 green rising, 3 blue dipping, 4 black falling.",
+      "Four carving inks, reserved for tones (contours and Pinyin syllables): 1 red flat, 2 green rising, 3 blue dipping, 4 plum falling.",
       "Serif Hanzi (Noto Serif SC 700) beside humanist sans Hebrew and Pinyin (Assistant).",
       "Spring motion for tile physics only; everything else eases out."
     ],
     "rules": [
       {
         "name": "The Carving Ink Rule",
-        "body": "The four carving inks are reserved for tones (1 red, 2 green, 3 blue, 4 black; the neutral tone is a short ink-muted dot): the contours, and the Pinyin syllables that spell the same tones. They never decorate, never mark a brand, never colour a heading.",
+        "body": "The four carving inks are reserved for tones (1 red, 2 green, 3 blue, 4 plum; the neutral tone is a short ink-muted dot): the contours, and the Pinyin syllables that spell the same tones. They never decorate, never mark a brand, never colour a heading.",
         "section": "colors"
       },
       {
@@ -644,7 +644,7 @@
     ],
     "dos": [
       "**Do** build every new interactive surface as a tile (bone face, jade underside, `--lift`), a well, or plain felt.",
-      "**Do** draw tones only with the Tone Contour, in tone order 1 red, 2 green, 3 blue, 4 black, neutral as an ink-muted dot, replayed in reading order.",
+      "**Do** draw tones only with the Tone Contour, in tone order 1 red, 2 green, 3 blue, 4 plum, neutral as an ink-muted dot, replayed in reading order.",
       "**Do** keep Hanzi in ink on bone (bone on the jade back), and ink each Pinyin syllable in its tone colour at 600.",
       "**Do** carry quiz verdicts in fill, edge, underside, icon and the verdict line.",
       "**Do** step Hanzi size by character count so a word never wraps inside a tile.",
