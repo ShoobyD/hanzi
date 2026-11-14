@@ -39,7 +39,7 @@ function saveDataPlugin(): Plugin {
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/chinese-vocabulary/',
+  base: '/hanzi/',
   plugins: [vue(), saveDataPlugin()],
   resolve: {
     alias: {
@@ -47,3 +47,4 @@ export default defineConfig({
     },
   },
 })
+

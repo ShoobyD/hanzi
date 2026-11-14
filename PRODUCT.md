@@ -31,7 +31,7 @@ Tag filter: choosing one or more tags narrows every mode to words matching any o
 
 ## Capabilities and Constraints
 
-- Vue 3 + Vite + TypeScript SPA, deployed to GitHub Pages (`https://shoobyd.github.io/chinese-vocabulary/`).
+- Vue 3 + Vite + TypeScript SPA, deployed to GitHub Pages (`https://shoobyd.github.io/hanzi/`).
 - Vocabulary is hand-edited in `src/data/data.json` (tags map + words list).
 - UI is RTL Hebrew; Hanzi and Pinyin flow LTR and are isolated per element.
 - Text must render Hebrew, Simplified Chinese, and Pinyin tone diacritics (ǎ ǐ ǚ ü).
